@@ -1,0 +1,45 @@
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 85px;
+    padding: 0 2vw 0 2vw;
+    width: 100%;
+    color: #f5fbff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+#companyBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+#companyTitle {
+    font-size: 1.5rem;
+    margin-left: 1vw;
+}
+#companyLogo {
+    height: 60px;
+    width: 60px;
+}
+
+#userBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.userButton {
+    width: 80px;
+    margin: 5px;
+    height: auto;
+}
+
+.playlist-text {
+    color: #f5fbff;
+    text-decoration: none;
+    margin-left: 4px;
+    font-size: 0.8rem;
+}
